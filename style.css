@@ -26,9 +26,11 @@ body,html {
   opacity: 0;
 }
 
-#tiny {
+#top {
   font-family: Monaco, monospace;
-  font-size: 1vw;
+  font-size: 2vw;
+  top: 1em;
+  left: 40vw;
   padding-bottom: 1vh;
   position: fixed;
 }
