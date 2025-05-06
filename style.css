@@ -1,0 +1,257 @@
+body,html {
+  background-color: #f4f0ec;
+/*  background-image: url("spill.jpeg");*/
+/*  opacity: 0.6;*/
+  padding: 0;
+  margin: 0.5em;
+  height: 125%;
+}
+
+#cross-img {
+  position: fixed;
+  top: 2em;
+  left: 2em;
+  width: 3vw;
+}
+
+#blackcross-img {
+  position: fixed;
+  top: 2em;
+  left: 2em;
+  width: 3vw;
+  opacity: 1;
+}
+
+#blackcross-img:hover {
+  opacity: 0;
+}
+
+#tiny {
+  font-family: Monaco, monospace;
+  font-size: 1vw;
+  padding-bottom: 1vh;
+  position: fixed;
+}
+
+#page-container {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+#left-container {
+  position: fixed;
+  top: 8em;
+  left: 8em;
+  display: flex;
+  width: 70%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+  justify-content: space-between;
+}
+
+#left-left {
+  display: flex;
+  width: 40%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#left-right {
+  display: flex;
+  justify-self: flex-end;
+  width: fit-content;
+  height: 60vh;
+  flex-direction: column;
+  justify-content: space-between;
+/*  align-items: flex-end;*/
+/*  border: solid black 3px;*/
+}
+
+#right-container {
+  position: fixed;
+  top: 2em;
+  right: 2em;
+  width: 15%;
+  height: 90vh;
+/*  border: solid black 3px; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+#btm-nav {
+  position: relative;
+  left: 7em;
+  top: 40em;
+  width: 72%;
+  height: fit-content;
+/*  border: solid black 3px;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: rgb(244,240,236, 0.95);
+}
+
+#btm-nav:hover {
+  cursor: ns-resize;
+}
+
+#journal {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+  width: 100%;
+}
+
+#journal-cat {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+  width: 100%;
+  padding-top: 1vh;
+}
+
+.titles {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+}
+
+#contact {
+  font-family: Monaco, monospace;
+  font-size: 1vw;
+  text-align: right;
+}
+
+#location {
+  font-family: Monaco, monospace;
+  font-size: 1vw;
+  text-align: left;
+  display: flex;
+  justify-self: flex-end;
+  align-self: flex-end;
+}
+
+#name {
+  font-family: Monaco, monospace;
+  font-size: 6vw;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#title {
+  font-family: Monaco, monospace;
+  font-size: 4vw;
+  justify-self: flex-start;
+  text-align: right;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#left-right-top {
+  font-family: Monaco, monospace;
+  font-size: 1vw;
+  text-align: left;
+}
+
+#left-right-btm {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  cursor: cell;
+  color: #006600;
+}
+
+#me {
+  width: 75%;
+/*  border-radius: 1em;*/
+}
+
+
+
+/*about*/
+#left-left-about {
+  display: flex;
+  width: 60%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+}
+
+#left-right-about {
+  display: flex;
+  width: 40%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+}
+
+#me-about {
+  width: 100%;
+}
+
+#left-container-about {
+  position: fixed;
+  top: 8em;
+  left: 8em;
+  display: flex;
+  width: 70%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+#journal-about {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+  width: 100%;
+  color: #006600;
+}
+
+/*1-1*/
+.titles-current {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+  color: #006600;
+}
+
+.titles-current a {
+  color: #006600;
+}
+
+#left-container-1 {
+  position: fixed;
+  top: 8em;
+  left: 8em;
+  display: flex;
+  width: 70%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+}
+
+#left-left-1 {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+/*  border: solid black 3px;*/
+}
+
+#journal-1 {
+  font-family: Monaco, monospace;
+  font-size: 2vw;
+  width: 60%;
+  color: #006600;
+}
